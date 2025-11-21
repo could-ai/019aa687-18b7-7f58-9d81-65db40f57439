@@ -20,7 +20,11 @@ class MyApp extends StatelessWidget {
           surfaceTintColor: Colors.white,
         ),
       ),
-      home: const HomeScreen(),
+      // Explicitly define the initial route and routes map for better web routing compatibility
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const HomeScreen(),
+      },
     );
   }
 }
