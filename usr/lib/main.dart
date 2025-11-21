@@ -21,10 +21,10 @@ class MyApp extends StatelessWidget {
         ),
       ),
       // Explicitly define the initial route and routes map for better web routing compatibility
-      initialRoute: '/',
-      routes: {
-        '/': (context) => const HomeScreen(),
-      },
+      // initialRoute: '/',
+      // routes: {
+      //   '/': (context) => const HomeScreen(),
+      // },
     );
   }
 }
